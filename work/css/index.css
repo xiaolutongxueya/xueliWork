@@ -1,0 +1,585 @@
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+body{
+	background-color: #f3f5f7;
+}
+/* 附加 */
+.fu{
+	width: 1890px;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px solid #b49bb8;
+}
+.fu ul{
+	margin: 0 60px 0 0;
+	float: right;
+}
+.fu li{
+	float: left;
+	margin-left: 30px;
+}
+.fu a{
+	color: black;
+}
+
+
+
+/*头部样式*/
+
+.container1 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+	margin-left: 30px;
+}
+select{
+	width: 90px;
+	position: absolute;
+	left: 170px;
+	top: 20px;
+}
+.header .local_branch{
+	position: absolute;
+	left: 180px;
+	top: 43px;
+}
+.form{
+	position: absolute;
+	top: 25px;
+	left: 350px;
+}
+.form * {
+    float: left;
+    vertical-align: middle;
+}
+.form .search{
+	height: 15px;
+	width: 323px;
+	padding-top: 12px;
+	padding-bottom: 11px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border: orange 1px solid;
+}
+.form .submit{
+	width: 50px;
+	height: 40px;
+	background: orange url('../images/fa-search.png') no-repeat center center;
+}
+.tele{
+	position: absolute;
+	left: 875px;
+	top: 10px;
+	width: 130px;
+	height: 60px;
+}
+.tele img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.tele .p1{
+	position: absolute;
+	left: 60px;
+	top: 6px;
+	color: #b49bb8;
+
+}
+.tele .p2{
+	position: absolute;
+	left: 60px;
+	bottom: 6px;
+	color: #09c755;
+}
+.header .p3{
+	position: absolute;
+	left: 1050px;
+	top: 20px;
+	color: #b49bb8;
+	font-size: 12px;
+}
+.header .p4{
+	position: absolute;
+	left:1050px ;
+	top: 40px;
+	color: #ffa835;
+}
+
+
+#log{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background: pink;
+	display: none;
+}
+#log1,#log2,#subbb{
+	margin: 40px;
+}
+#subbb{
+	display: block;
+	width: 40px;
+	height: 20px;
+}
+#bigbig{
+	display: block;
+	position: relative;
+}
+.duo{
+	display: inline-block;
+
+}
+
+#top{
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	display: block;
+	margin: 30px;
+	background: pink; 
+	position: fixed;
+	top: 70%;
+	right: 30px;
+}
+
+/* 列表样式 */
+.list{
+	background-color: #09c755;
+	width: 1890px;
+	margin: 0 auto;
+}
+.nav{
+	cursor: pointer;
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav li{
+	width: 75px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #09c755;
+}
+.nav>ul ul{
+    display: none;
+    position: absolute;
+}
+.nav>ul>li{
+    float: left;
+    position: relative;
+}
+.nav>ul>li:hover ul{
+    display: block;
+}
+.nav li:hover{
+    background-color: green;
+}
+.nav li:hover>a{
+    color: white;
+}   
+.list .first{
+	background-color: green;
+}
+.list li a{
+	color: white;
+}
+
+
+.green{
+	height: 30px;
+	width: 1890px;
+	background: #09c755;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+}
+
+
+/* banner样式 */
+ul,li{
+	list-style: none;
+}
+.box{
+	width: 1200px;
+	height: 397px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+
+
+/* --------------第一个js---------------- */
+
+/* 当地玩乐 */
+.wanle{
+	width: 1200px;
+	height: 77px;
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid #b49bb8;
+}
+.wanle .p1{
+	position: absolute;
+	top: 37px;
+	width:80px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.wanle .p2{
+	position: absolute;
+	top: 44px;
+	right: 31px;
+	width:60px;
+	height:16px;
+}
+.wanle .p2 a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color: #ffa212; 
+}
+.wanle1{
+	position: absolute;
+	left: 200px;
+	top: 30px;
+
+}
+.wanle li{
+	float: left;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: 1px transparent solid;
+}
+.wanle .first{
+	border-bottom: 1px #00A4FF solid;
+}
+.wanle .first a{
+	color: #00A4FF;
+}
+.wanle li a{
+	font-size: 20px;
+	color: black;
+}
+.wanle li:hover{
+	border-bottom: 1px #00A4FF solid;
+}
+.wanle li:hover a{
+	color: #00A4FF; 
+}
+
+
+.pic1{
+	height: 620px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.pic1 .text{
+	height: 620px;
+	width: 130px;
+	float: left;
+}
+.pic1 .text li{
+	margin: 10px 0 10px 5px;
+}
+.pic1 .text li a{
+	color:rgba(165,165,165,1);
+	font-size:14px;
+	font-weight:400;
+}
+.pic1 .text .big{
+	margin: 20px 0 20px 5px;
+}
+.pic1 .text .big a{
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:500;
+	color: black;
+}
+.pic1 .tu{
+	height: 620px;
+	width: 1062px;
+	float: right;
+}
+.pic1 .tu li{
+	width: 256px;
+	border: 1px solid #b49bb8;
+	height: 300px;
+	float: left;
+	margin: 0 0 15px 7px;
+	cursor: pointer;
+}
+.pic1 .tu li .p1{
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:700;
+	color:rgba(73,73,73,1);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.pic1 .tu li .p2{
+	font-size:16px;
+	font-weight:400;
+	margin:10px 10px 0 10px;
+	color:rgba(165,165,165,1);
+}
+.pic1 .tu li .p3{
+	font-size:24px;
+	font-weight:400;
+	margin-top:10px;
+	margin-left: 10px;
+	color:orange;
+}
+
+
+/* 美食 */
+.meishi{
+	width: 1200px;
+	height: 77px;
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid #b49bb8;
+}
+.meishi .p1{
+	position: absolute;
+	top: 37px;
+	width:80px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.meishi .p2{
+	position: absolute;
+	top: 44px;
+	right: 31px;
+	width:60px;
+	height:16px;
+}
+.meishi .p2 a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color: #ffa212; 
+}
+
+.pic2{
+	width: 1200px;
+	height: 478px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic2 li{
+	float: left;
+	margin: 0 0 6px 25px;
+	position: relative;
+}
+.pic2 .first{
+	margin: 0;
+}
+.pic2 li div{
+	height: 60px;
+	width: 380px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 5px;
+	color: white;
+	font-size: 22px;
+}
+.pic2 .first div{
+	width: 390px;
+}
+.pic2 .p1{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+.pic2 .p2{
+	position: absolute;
+	top: 23px;
+	right: 30px;
+	font-size: 18px;
+	color: orange;
+}
+
+
+/* 国际酒店 */
+.jiudian{
+	width: 1200px;
+	height: 77px;
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid #b49bb8;
+}
+.jiudian .p1{
+	position: absolute;
+	top: 37px;
+	width:80px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.jiudian .p2{
+	position: absolute;
+	top: 44px;
+	right: 31px;
+	width:60px;
+	height:16px;
+}
+.jiudian .p2 a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color: #ffa212; 
+}
+
+
+.pic3{
+	height: 218px;
+	width: 1200px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic3 li{
+	float: left;
+	margin: 0 10px 0 0;
+	position: relative;
+}
+.pic3 .last{
+	margin: 0;
+}
+.pic3 li div{
+	height: 50px;
+	width: 292px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 4px;
+	color: white;
+	font-size: 22px;
+}
+.pic3 li .p1{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+.pic3 li .p2{
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	font-size: 18px;
+	color: orange;
+}
+
+
+
+/* 服务 */
+.aaa{
+	width: 1890px;
+	height: 100px;
+	margin: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+.aaa ul{
+	width: 1200px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+}
+.aaa li{
+	float: left;
+	margin-right: 115px;
+}
+.aaa a{
+	color:#bebebe;
+}
+.aaa img{
+	vertical-align: middle;
+}
+
+
+
+
+/* 最后 */
+.zuihou{
+	width: 1890px;
+	height: 300px;
+	line-height: 300px;
+	margin: 0 auto;
+	background-color: #3a3a3a;
+	text-align: center;
+	
+}
+.zuihou a{
+	color: white;
+}
